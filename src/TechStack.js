@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactComponent as Github } from "./Assets/github.svg";
-import { ReactComponent as Html5 } from "./Assets/html5.svg";
+import { ReactComponent as Html5 } from "./Assets/html.svg";
 import { ReactComponent as PythonSVG } from "./Assets/python.svg";
 import { ReactComponent as Cpp } from "./Assets/c++.svg";
 import { ReactComponent as CSvg } from "./Assets/c.svg";
@@ -10,140 +10,60 @@ import { ReactComponent as DsaSvg } from "./Assets/Data.svg";
 
 import { ReactComponent as Css3 } from "./Assets/css3.svg";
 import RNative from "./Assets/REACTNATIVE.png";
-import "./TechStack.css"
-
-const styles = {
-  mycontainer: {
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    minHeight: "100vh",
-    position: "sticky",
-    backgroundColor: "#42a5f5",
-    padding: "8vh 6vh",
-    top: 0,
-  },
-};
+import "./TechStack.css";
 
 const TechStack = () => {
   return (
-    <div id="tech-stack" style={styles.mycontainer}>
-      <div style={styles.reachMe}>
-        <p
-          style={{
-            fontFamily: "Oswald, sans-serif",
-            fontSize: "90px",
-            borderBottom: "10px solid white",
-          }}
-        >
-          Technologies
-        </p>
-        <div
-          style={{
-            width: "90vw",
-            display: "flex",
-            flexWrap: "wrap",
-            justifyContent: "space-between",
-          }}
-        >
-
+    <div id="tech-stack" className="techStackContainer">
+      <div>
+        <p className="techHeader">Technologies</p>
+        <div className="techWrapper">
           <div className="iconWrapper ">
             <p>Github</p>
-          <Github style={{ width: "10.4em" }} />
-            </div>
-          <div className="iconWrapper ">
-            <p>HyperText Markup Language</p>
-          <div
-            style={{
-              width: "10.4em",
-              aspectRatio: "1/1",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              border: "5px solid grey",
-              borderRadius: "30px",
-            }}
-          >
-            <Html5 />
+            <Github className="iconSVG" />
           </div>
-            </div>
+          <div className="iconWrapper ">
+            <p>HTML5</p>
+            <Html5 className="iconSVG" />
+          </div>
           <div className="iconWrapper ">
             <p>Cascading StyleSheets</p>
-            <div
-              style={{
-                width: "10.4em",
-                aspectRatio: "1/1",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                border: "5px solid grey",
-                borderRadius: "30px",
-              }}
-            >
-              <Css3 />
-            </div>
+            <Css3 className="iconSVG" />
           </div>
           <div className="iconWrapper ">
             <p>Vanilla JavaScript</p>
-            <Js style={{ width: "10.4em" }} />
+            <Js className="iconSVG" />
           </div>
           <div className="iconWrapper ">
             <p>ReactJS</p>
-            <ReactSVG style={{ width: "10.4em" }} />
+            <ReactSVG className="iconSVG" />
           </div>
           <div className="iconWrapper ">
             <p>React Native</p>
-            <img alt="reactNative" src={RNative} style={{ width: "10.4em" }} />
+            <img alt="reactNative" src={RNative} className="iconSVG" />
           </div>
         </div>
-        <p
-          style={{
-            fontFamily: "Oswald, sans-serif",
-            fontSize: "90px",
-            borderBottom: "10px solid white",
-          }}
-        >
-          Uni Programmes
-        </p>
-        <div
-          style={{
-            maxWidth: "80vw",
-            display: "flex",
-            flexWrap: "wrap",
-            alignItems: "start",
-          }}
-        >
-          <div className="iconWrapper ">
-            <p>C++</p>
-            <Cpp style={{ width: "9em" }} />
-          </div>
+        <p className="techHeader">Uni Programmes</p>
+        <div className="uniWrapper">
           <div className="iconWrapper ">
             <p>C Programming</p>
-            <CSvg style={{ width: "10.4em" }} />
+            <CSvg className="iconSVG" />
           </div>
           <div className="iconWrapper ">
             <p>Python</p>
-            <PythonSVG style={{ width: "10.4em" }} />
+            <PythonSVG className="iconSVG" />
           </div>
           <div className="iconWrapper ">
             <p>Object Oriented Programming</p>
-            <span
-              style={{
-                fontSize: "10.4em",
-                padding: 0,
-                margin: 0,
-                lineHeight: 1,
-                letterSpacing: "0px",
-                alignSelf: "start",
-              }}
-            >
-              OOP
-            </span>
+            <span className="oop">OOP</span>
           </div>
           <div className="iconWrapper ">
             <p>Data Structures & Algorithms</p>
-            <DsaSvg style={{ width: "10.4em" }} />
+            <DsaSvg className="iconSVG" />
+          </div>
+          <div className="iconWrapper ">
+            <p>C++</p>
+            <Cpp className="iconSVG" />
           </div>
         </div>
       </div>

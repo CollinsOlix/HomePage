@@ -7,20 +7,10 @@ import { ReactComponent as Github } from "./Assets/github.svg";
 import Footer from "./Footer";
 import "./ContactMe.css";
 
-const styles = {
-  contactMe: {
-    backgroundColor: "#0A66C2",
-    minHeight: "100dvh",
-    maxHeight: "100vh",
-    width: "100vw",
-    position: "sticky",
-    top: 0,
-    padding: "8vw 0",
-  },
-};
+
 const ContactMe = () => {
   return (
-    <div id="contact-me" style={styles.contactMe}>
+    <div  className="contactMe" >
       <p className="contactMeText">
         Contact me to collaborate on projects together or to employ my skills to
         bring your ideas to life 😊
@@ -29,7 +19,7 @@ const ContactMe = () => {
         <div className="iconWrapper ">
           <p>Github Repository</p>
           <a href="https://github.com/CollinsOlix">
-            <Github style={{ width: "10.4em" }} />
+            <Github style={{ width: "10.4rem" }} />
           </a>
         </div>
         <div className="iconWrapper">

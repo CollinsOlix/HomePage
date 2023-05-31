@@ -22,10 +22,10 @@ const Footer = () => {
         <div className="column">
           <p>VjParihar_LinkedInSVG_from_IconScout.com</p>
           <p>JagathishSaravanan_JavaScriptSVG_from_IconScout.com</p>
-          <p>ManindaKaur_CSS3SVG_from_IconScout.com</p>
+          <p>Icon54_CSS3SVG_from_IconScout.com</p>
         </div>
         <div className="column">
-          <p>ManindaKaur_HTML5SVG_from_IconScout.com</p>
+          <p>Icon54_HTML5SVG_from_IconScout.com</p>
           <p>SamatOledara_ReactSVG_from_IconScout.com</p>
           <p>Suayip_CodingAnimation_from_LottieFiles</p>
         </div>

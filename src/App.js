@@ -13,8 +13,11 @@ function App() {
     <>
       <MyNavbar />
       <div className="maincontainer">
+        <div id="aboutme"></div>
         <AboutMe />
+        <div id="techstack"></div>
         <TechStack />
+        <div id="contactme"></div>
         <ContactMe />
       </div>
     </>

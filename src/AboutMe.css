@@ -1,4 +1,84 @@
-
 .ozzy {
   font-family: "Oswald", sans-serif;
+}
+.coding {
+  width: 100%;
+  min-height: 1000px;
+  height: 100vh;
+  background-color: white;
+  padding: 8vh 6vh;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+.codingAnimation {
+  min-width: 500px;
+  width: 40vw;
+  margin-right: 3vh;
+}
+.heroText {
+  border-bottom: 10px solid rgb(10, 102, 194);
+  width: 55vw;
+  min-width: 700px;
+}
+.softWrapper {
+  margin: 70px 0 35px 0;
+}
+p.ozzy {
+  font-size: 7vw;
+  font-weight: 700;
+  line-height: 1px;
+}
+span.ozzy {
+  line-height: 5px;
+  font-size: 11vw;
+}
+.devWrapper {
+  margin: 100px 0 0 0;
+}
+
+@media (max-width: 400px) {
+  .coding {
+    flex-direction: column;
+    position: relative;
+    padding: 10px;
+    height: 100dvh;
+    height: 100vh;
+    max-height: 850px;
+  }
+  .codingAnimation {
+    margin: 10rem 5vh 5rem 5vh;
+    min-width: 300px;
+  }
+  .heroText {
+    text-align: center;
+    min-width: 100vw;
+    padding: 20px;
+    border: none;
+  }
+  .heroText h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .softWrapper {
+    width: 100%;
+    background-color: #0a66c2;
+    color: white;
+    border-radius: 1rem;
+    margin: 0;
+  }
+  p.ozzy {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  span.ozzy {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .devWrapper {
+    margin: 10px;
+  }
 }

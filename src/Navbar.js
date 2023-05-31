@@ -8,9 +8,25 @@ function MyNavbar() {
       <Container className="container">
         <MyAvatar />
         <div className="mynav-items">
-          <a className="navlinks" href="#aboutme">{`<whoami/>`}</a>
-          <a className="navlinks" href="#tech-stack">{`<tech-stack/>`}</a>
-          <a className="navlinks" href="#contact-me">{`<contact-me/>`}</a>
+          <a
+            onClick={() => document.querySelector("#aboutme").scrollIntoView()}
+            className="navlinks"
+            href="#aboutme"
+          >{`<whoami/>`}</a>
+          <a
+            onClick={() =>
+              document.querySelector("#techstack").scrollIntoView()
+            }
+            className="navlinks"
+            href="#techstack"
+          >{`<tech-stack/>`}</a>
+          <a
+            onClick={() =>
+              document.querySelector("#contactme").scrollIntoView()
+            }
+            className="navlinks"
+            href="#contactme"
+          >{`<contact-me/>`}</a>
         </div>
       </Container>
     </div>
