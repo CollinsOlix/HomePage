@@ -6,9 +6,7 @@ function MyNavbar() {
   return (
     <div className="mynavbar">
       <Container className="container">
-        <a href="#">
-          <MyAvatar />
-        </a>
+        <MyAvatar />
         <div className="mynav-items">
           <a className="navlinks" href="#aboutme">{`<whoami/>`}</a>
           <a className="navlinks" href="#tech-stack">{`<tech-stack/>`}</a>
