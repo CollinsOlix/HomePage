@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/HomePage/static/css/main.6df02bc9.css",
+    "main.css": "/HomePage/static/css/main.1bdbd497.css",
     "main.js": "/HomePage/static/js/main.60854ce7.js",
     "static/js/787.f5fbd4a6.chunk.js": "/HomePage/static/js/787.f5fbd4a6.chunk.js",
     "static/media/REACTNATIVE.png": "/HomePage/static/media/REACTNATIVE.751c5c0424c286b92fc8.png",
@@ -74,12 +74,12 @@
     "static/media/html.svg": "/HomePage/static/media/html.90de874cd42ae152de36835e5806617b.svg",
     "static/media/css3.svg": "/HomePage/static/media/css3.d51e893b4eecd56b38b570e498bd1712.svg",
     "static/media/javascript.svg": "/HomePage/static/media/javascript.e206981b82558648a7015649152a69ea.svg",
-    "main.6df02bc9.css.map": "/HomePage/static/css/main.6df02bc9.css.map",
+    "main.1bdbd497.css.map": "/HomePage/static/css/main.1bdbd497.css.map",
     "main.60854ce7.js.map": "/HomePage/static/js/main.60854ce7.js.map",
     "787.f5fbd4a6.chunk.js.map": "/HomePage/static/js/787.f5fbd4a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6df02bc9.css",
+    "static/css/main.1bdbd497.css",
     "static/js/main.60854ce7.js"
   ]
 }
