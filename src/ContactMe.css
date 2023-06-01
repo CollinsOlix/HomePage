@@ -5,7 +5,7 @@
   width: 100vw;
   position: sticky;
   top: 0;
-  padding: 8vw 0;
+  padding: 10vh 0;
 }
 .iconWrapper {
   width: fit-content;
@@ -27,7 +27,7 @@
   opacity: 0;
   position: absolute;
   z-index: 2;
-  top: 10.4em;
+  top: 15vh;
   left: 1em;
 }
 .iconWrapper:hover p {
@@ -42,9 +42,14 @@
 .contactMeText {
   font-family: "Oswald", sans-serif;
   text-align: center;
-  font-size: 4em;
+  font-size: 6vh;
   padding: 0 3em;
   margin-bottom: 3em;
   color: #42a5f5;
   text-shadow: 2px 2px 0 #0a66c2, 3px 3px 0 white;
+}
+.contactIcons {
+  width: 15vh;
+  position: relative;
+  z-index: 1;
 }

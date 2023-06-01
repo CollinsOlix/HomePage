@@ -3,12 +3,12 @@
 }
 .coding {
   width: 100%;
-  min-height: 1000px;
-  height: 100vh;
+  /* min-height: 800px; */
+  min-height: 100vh;
   background-color: white;
-  padding: 8vh 6vh;
+  padding: 200px 0;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   position: sticky;
   top: 0;
 }
@@ -46,6 +46,7 @@ span.ozzy {
     height: 100dvh;
     height: 100vh;
     max-height: 850px;
+    align-items: center;
   }
   .codingAnimation {
     margin: 10rem 5vh 5rem 5vh;

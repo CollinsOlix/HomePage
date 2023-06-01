@@ -24,10 +24,7 @@ const AboutMe = () => {
               Software & Mobile
             </p>
           </div>
-          <div
-            className="devWrapper"
-            
-          >
+          <div className="devWrapper">
             <span className="ozzy">Development</span>
           </div>
         </div>
