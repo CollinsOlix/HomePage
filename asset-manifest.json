@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/HomePage/static/css/main.34cb060a.css",
-    "main.js": "/HomePage/static/js/main.5a40afcd.js",
+    "main.css": "/HomePage/static/css/main.6df02bc9.css",
+    "main.js": "/HomePage/static/js/main.60854ce7.js",
     "static/js/787.f5fbd4a6.chunk.js": "/HomePage/static/js/787.f5fbd4a6.chunk.js",
     "static/media/REACTNATIVE.png": "/HomePage/static/media/REACTNATIVE.751c5c0424c286b92fc8.png",
     "static/media/roboto-latin-500-normal.woff2": "/HomePage/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
@@ -52,7 +52,6 @@
     "static/media/roboto-vietnamese-400-normal.woff": "/HomePage/static/media/roboto-vietnamese-400-normal.e0e8ba725ebd107367a8.woff",
     "static/media/roboto-vietnamese-500-normal.woff": "/HomePage/static/media/roboto-vietnamese-500-normal.657896dad292ee9a0a0a.woff",
     "static/media/roboto-vietnamese-700-normal.woff": "/HomePage/static/media/roboto-vietnamese-700-normal.4df79f684fcbca8386bd.woff",
-    "static/media/css3.svg": "/HomePage/static/media/css3.07ad1c2553f82005e4c5d846ef50cdf1.svg",
     "static/media/react.svg": "/HomePage/static/media/react.f1484e295933af0e748d6a01b05a8361.svg",
     "static/media/github.svg": "/HomePage/static/media/github.bbfc62d0d2b619828f401f087b2852de.svg",
     "static/media/c++.svg": "/HomePage/static/media/c++.35f8291ff1e9393f09d71c92e8a472b2.svg",
@@ -69,17 +68,18 @@
     "static/media/roboto-greek-ext-300-normal.woff": "/HomePage/static/media/roboto-greek-ext-300-normal.392a45a84c081c4b412d.woff",
     "static/media/roboto-greek-ext-400-normal.woff": "/HomePage/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "static/media/roboto-greek-ext-700-normal.woff": "/HomePage/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
-    "static/media/html5.svg": "/HomePage/static/media/html5.b0e8febe68a6ae770e88bfcf46899817.svg",
     "static/media/python.svg": "/HomePage/static/media/python.1d8b239a4621cc37e8d102be5878a06e.svg",
     "static/media/linkedin.svg": "/HomePage/static/media/linkedin.785c6320380db9c056f3bba76e61f749.svg",
     "static/media/c.svg": "/HomePage/static/media/c.c91614e427a730896af077df170afe3b.svg",
+    "static/media/html.svg": "/HomePage/static/media/html.90de874cd42ae152de36835e5806617b.svg",
+    "static/media/css3.svg": "/HomePage/static/media/css3.d51e893b4eecd56b38b570e498bd1712.svg",
     "static/media/javascript.svg": "/HomePage/static/media/javascript.e206981b82558648a7015649152a69ea.svg",
-    "main.34cb060a.css.map": "/HomePage/static/css/main.34cb060a.css.map",
-    "main.5a40afcd.js.map": "/HomePage/static/js/main.5a40afcd.js.map",
+    "main.6df02bc9.css.map": "/HomePage/static/css/main.6df02bc9.css.map",
+    "main.60854ce7.js.map": "/HomePage/static/js/main.60854ce7.js.map",
     "787.f5fbd4a6.chunk.js.map": "/HomePage/static/js/787.f5fbd4a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34cb060a.css",
-    "static/js/main.5a40afcd.js"
+    "static/css/main.6df02bc9.css",
+    "static/js/main.60854ce7.js"
   ]
 }
