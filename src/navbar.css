@@ -11,7 +11,8 @@
   padding: 10px;
 }
 .container {
-  width: 100%;
+  width: 100svw;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,9 +30,21 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
+  .container {
+    width: 100vw;
+  }
+  .mynav-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
   .avatar {
     display: none;
+  }
+  .mynav-items > a {
+    font-size: 20px;
+    margin: 0px;
   }
   .navlinks:hover {
     color: rgba(2, 13, 51, 0.589);

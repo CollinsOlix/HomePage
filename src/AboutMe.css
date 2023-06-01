@@ -38,19 +38,18 @@ span.ozzy {
   margin: 100px 0 0 0;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .coding {
     flex-direction: column;
     position: relative;
     padding: 10px;
     height: 100dvh;
-    height: 100vh;
-    max-height: 850px;
+    min-height: 100vh;
     align-items: center;
   }
   .codingAnimation {
-    margin: 10rem 5vh 5rem 5vh;
-    min-width: 300px;
+    margin: 12vh 5vh 5rem 5vh;
+    min-width: 90vw;
   }
   .heroText {
     text-align: center;

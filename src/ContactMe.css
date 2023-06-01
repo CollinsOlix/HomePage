@@ -53,18 +53,21 @@
   z-index: 1;
 }
 
-@media (max-width: 400px){
+@media (max-width: 450px) {
+  .contactMe{
+    padding: 10vh 0;
+  }
   .contactMeText {
     text-align: center;
     font-size: 8vw;
     margin-bottom: 3vh;
-    padding: 0 5vw;
+    padding: 0 3vw;
   }
-  .iconsContainer{
+  .iconsContainer {
     flex-wrap: wrap;
   }
   .contactIcons {
-    width: 27vw;
+    width: 23vw;
     position: relative;
     z-index: 1;
     margin: 3vw;
