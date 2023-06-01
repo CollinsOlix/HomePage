@@ -54,6 +54,19 @@
     height: 100vh;
     padding: 0;
     text-align: center;
+    align-items: center;
+    position: relative;
+  }
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .techWrapper {
+    justify-content: space-around;
+  }
+  .uniWrapper {
+    justify-content: space-around;
   }
   .techHeader {
     font-size: 50px;
@@ -70,5 +83,6 @@
   }
   .iconSVG {
     width: 6em;
+    margin: 1vw;
   }
 }

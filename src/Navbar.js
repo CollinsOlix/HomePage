@@ -6,7 +6,9 @@ function MyNavbar() {
   return (
     <div className="mynavbar">
       <Container className="container">
-        <MyAvatar />
+        <div className="avatar">
+          <MyAvatar />
+        </div>
         <div className="mynav-items">
           <a
             onClick={() => document.querySelector("#aboutme").scrollIntoView()}

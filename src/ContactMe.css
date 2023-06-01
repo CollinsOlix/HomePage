@@ -40,16 +40,33 @@
   /* position: absolute; */
 }
 .contactMeText {
-  font-family: "Oswald", sans-serif;
   text-align: center;
   font-size: 6vh;
   padding: 0 3em;
   margin-bottom: 3em;
-  color: #42a5f5;
+  color: #ffffff;
   text-shadow: 2px 2px 0 #0a66c2, 3px 3px 0 white;
 }
 .contactIcons {
   width: 15vh;
   position: relative;
   z-index: 1;
+}
+
+@media (max-width: 400px){
+  .contactMeText {
+    text-align: center;
+    font-size: 8vw;
+    margin-bottom: 3vh;
+    padding: 0 5vw;
+  }
+  .iconsContainer{
+    flex-wrap: wrap;
+  }
+  .contactIcons {
+    width: 27vw;
+    position: relative;
+    z-index: 1;
+    margin: 3vw;
+  }
 }

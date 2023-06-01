@@ -28,3 +28,17 @@
   color: rgba(2, 13, 51, 0.589);
   text-transform: uppercase;
 }
+
+@media (max-width: 400px) {
+  .avatar {
+    display: none;
+  }
+  .navlinks:hover {
+    color: rgba(2, 13, 51, 0.589);
+    text-transform: uppercase;
+    font-size: 3.5vw;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+  }
+}

@@ -15,7 +15,7 @@ import "./TechStack.css";
 const TechStack = () => {
   return (
     <div id="tech-stack" className="techStackContainer">
-      <div>
+      <div className="wrap">
         <p className="techHeader">Technologies</p>
         <div className="techWrapper">
           <div className="iconWrapper ">

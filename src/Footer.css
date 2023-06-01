@@ -18,3 +18,21 @@
 .column {
   margin: 0 2rem;
 }
+@media (max-width: 400px) {
+  .column p {
+    color: white;
+    font-size: 2vw;
+    margin: 0;
+    text-align: center;
+  }
+  .column {
+    margin: 0;
+  }
+  .mentions {
+    flex-direction: column;
+  }
+  .rowAttr {
+    display: flex;
+    margin-inline: auto;
+  }
+}
